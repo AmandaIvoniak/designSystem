@@ -14,7 +14,6 @@ export const fontSizes = {
   '9xl': '6rem',
 }
 
-
-//sempre use medidas relativas! px é fixo :(
+// sempre use medidas relativas! px é fixo :(
 
 // 1rem == 16px

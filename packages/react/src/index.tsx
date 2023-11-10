@@ -1,5 +1,13 @@
-import { colors } from '@ignite-designSystem/tokens'
+import { styled } from '@stitches/react'
 
-export function App() {
-  return <h1 style={{ color: colors.ignite300 }}>Hello world</h1>
-}
+export const Button = styled('button', {
+  borderRadius: '$sm',
+  fontSize: '$sm',
+  fontWeight: '$medium',
+  fontFamily: '$default',
+  textAlign: 'center',
+  minWidth: 120,
+  boxSizing: 'border-box',
+  padding: '0 $4',
+  background: 'ignite500',
+})
