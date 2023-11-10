@@ -9,5 +9,5 @@ export const Button = styled('button', {
   minWidth: 120,
   boxSizing: 'border-box',
   padding: '0 $4',
-  background: 'ignite500',
+  background: '$ignite500',
 })
