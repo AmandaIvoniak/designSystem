@@ -4,21 +4,24 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "dev": "storybook",
+    "build": "tsc && storybook build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@ignite-designSystem/eslint-config": "*",
     "@ignite-designSystem/react": "*",
     "@ignite-designSystem/tokens": "*",
-    "@ignite-designSystem/eslint-config": "*"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@ignite-designSystem/eslint-config": "*",
+    "@ignite-designSystem/react": "*",
+    "@ignite-designSystem/tokens": "*",
     "@storybook/addon-essentials": "^7.5.3",
     "@storybook/addon-interactions": "^7.5.3",
     "@storybook/addon-links": "^7.5.3",
@@ -38,9 +41,6 @@
     "eslint-plugin-storybook": "^0.6.15",
     "storybook": "^7.5.3",
     "typescript": "^5.0.2",
-    "vite": "^4.5.0",
-    "@ignite-designSystem/react": "*",
-    "@ignite-designSystem/tokens": "*",
-    "@ignite-designSystem/eslint-config": "*"
+    "vite": "^4.5.0"
   }
 }
