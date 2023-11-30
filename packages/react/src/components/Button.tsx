@@ -1,4 +1,4 @@
-import { ComponentProps } from 'react'
+import { ComponentProps, ElementType } from 'react'
 import { styled } from '../styles'
 
 export const Button = styled('button', {
@@ -26,10 +26,6 @@ export const Button = styled('button', {
 
   '&:disabled': {
     cursor: 'not-allowed',
-  },
-
-  '&:focus': {
-    boxShadow: '0 0 0 2px $colors$gray100',
   },
 
   variants: {
@@ -92,4 +88,6 @@ export const Button = styled('button', {
   },
 })
 
-export type ButtonProps = ComponentProps<typeof Button>
+export interface ButtonProps extends ComponentProps<typeof Button> {
+  as?: ElementType
+}

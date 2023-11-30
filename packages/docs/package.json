@@ -1,20 +1,21 @@
 {
-  "name": "docs",
+  "name": "@ignite-designSystem/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "storybook",
+    "dev": "storybook dev -p 6006",
     "build": "tsc && storybook build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "storybook": "storybook dev -p 6006",
+    "preview": "storybook",
     "build-storybook": "storybook build"
   },
   "dependencies": {
     "@ignite-designSystem/eslint-config": "*",
     "@ignite-designSystem/react": "*",
     "@ignite-designSystem/tokens": "*",
+    "phosphor-react": "^1.4.1",
+    "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -22,6 +23,7 @@
     "@ignite-designSystem/eslint-config": "*",
     "@ignite-designSystem/react": "*",
     "@ignite-designSystem/tokens": "*",
+    "@ignite-designSystem/ts-config": "*",
     "@storybook/addon-essentials": "^7.5.3",
     "@storybook/addon-interactions": "^7.5.3",
     "@storybook/addon-links": "^7.5.3",
