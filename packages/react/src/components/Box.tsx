@@ -11,3 +11,5 @@ export interface BoxProps extends ComponentProps<typeof Box> {
   // serve para quando você importar esse componente poder modificar a tag (div/as span) Exmplo no componente Text
   as?: ElementType
 }
+
+Box.displayName = 'Box'

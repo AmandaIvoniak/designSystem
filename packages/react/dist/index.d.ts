@@ -1046,6 +1046,9 @@ declare const AvatarImage: _stitches_react_types_styled_component.StyledComponen
 
 type AvatarProps = ComponentProps<typeof AvatarImage>;
 declare function Avatar(props: AvatarProps): react_jsx_runtime.JSX.Element;
+declare namespace Avatar {
+    var displayName: string;
+}
 
 declare const Input: _stitches_react_types_styled_component.StyledComponent<"input", {}, {}, _stitches_react_types_css_util.CSS<{}, {
     colors: {
@@ -1254,6 +1257,9 @@ interface TextInputProps extends ComponentProps<typeof Input> {
     prefix?: string;
 }
 declare function TextInput({ prefix, ...props }: TextInputProps): react_jsx_runtime.JSX.Element;
+declare namespace TextInput {
+    var displayName: string;
+}
 
 declare const TextArea: _stitches_react_types_styled_component.StyledComponent<"textarea", {}, {}, _stitches_react_types_css_util.CSS<{}, {
     colors: {
@@ -1664,12 +1670,18 @@ declare const CheckboxContainer: _stitches_react_types_styled_component.StyledCo
 
 type CheckboxProps = ComponentProps<typeof CheckboxContainer>;
 declare function Checkbox(props: CheckboxProps): react_jsx_runtime.JSX.Element;
+declare namespace Checkbox {
+    var displayName: string;
+}
 
 interface MultiStepProps {
     size: number;
     currentStep?: number;
 }
 declare function MultiStep({ size, currentStep }: MultiStepProps): react_jsx_runtime.JSX.Element;
+declare namespace MultiStep {
+    var displayName: string;
+}
 
 declare const styled: <Type extends _stitches_react_types_util.Function | keyof JSX.IntrinsicElements | react.ComponentType<any>, Composers extends (string | _stitches_react_types_util.Function | react.ComponentType<any> | {
     [name: string]: unknown;
