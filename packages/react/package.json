@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-designSystem/react",
+  "name": "@ignite-designsystem-ivoniak/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -13,9 +13,9 @@
   "keywords": [],
   "author": "",
   "devDependencies": {
-    "@ignite-designSystem/eslint-config": "*",
-    "@ignite-designSystem/tokens": "*",
-    "@ignite-designSystem/ts-config": "*",
+    "@ignite-designsystem-ivoniak/eslint-config": "*",
+    "@ignite-designsystem-ivoniak/tokens": "*",
+    "@ignite-designsystem-ivoniak/ts-config": "*",
     "@types/react": "^18.2.33",
     "@types/react-dom": "^18.2.14",
     "react": "^18.2.0",

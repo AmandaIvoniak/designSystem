@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-designSystem/docs",
+  "name": "@ignite-designsystem-ivoniak/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,9 +12,9 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@ignite-designSystem/eslint-config": "*",
-    "@ignite-designSystem/react": "*",
-    "@ignite-designSystem/tokens": "*",
+    "@ignite-designsystem-ivoniak/eslint-config": "*",
+    "@ignite-designsystem-ivoniak/react": "*",
+    "@ignite-designsystem-ivoniak/tokens": "*",
     "@storybook/addon-a11y": "^7.6.3",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
@@ -22,10 +22,10 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@ignite-designSystem/eslint-config": "*",
-    "@ignite-designSystem/react": "*",
-    "@ignite-designSystem/tokens": "*",
-    "@ignite-designSystem/ts-config": "*",
+    "@ignite-designsystem-ivoniak/eslint-config": "*",
+    "@ignite-designsystem-ivoniak/react": "*",
+    "@ignite-designsystem-ivoniak/tokens": "*",
+    "@ignite-designsystem-ivoniak/ts-config": "*",
     "@storybook/addon-essentials": "^7.5.3",
     "@storybook/addon-interactions": "^7.5.3",
     "@storybook/addon-links": "^7.5.3",

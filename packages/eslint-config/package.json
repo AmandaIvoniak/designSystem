@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-designSystem/eslint-config",
+  "name": "@ignite-designsystem-ivoniak/eslint-config",
   "private": true,
   "license": "MIT",
   "main": "index.js",

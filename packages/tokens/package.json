@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-designSystem/tokens",
+  "name": "@ignite-designsystem-ivoniak/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -13,8 +13,8 @@
   "keywords": [],
   "author": "",
   "devDependencies": {
-    "@ignite-designSystem/ts-config":"*",
-    "@ignite-designSystem/eslint-config":"*",
+    "@ignite-designsystem-ivoniak/ts-config":"*",
+    "@ignite-designsystem-ivoniak/eslint-config":"*",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   },

@@ -4,7 +4,7 @@ import {
   Text,
   TextInput,
   TextInputProps,
-} from '@ignite-designSystem/react'
+} from '@ignite-designsystem-ivoniak/react'
 
 export default {
   title: 'Form/Text Input',
