@@ -27,7 +27,7 @@ const config: StorybookConfig = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === "PRODUCTION") {
-      config.base = "/designSystem/";
+      config.base = "/@ignite-designsystem-ivoniakgnsystem-ivoniak/";
     }
 
     return config;
