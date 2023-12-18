@@ -1,10 +1,10 @@
 {
   "name": "@ignite-designsystem-ivoniak/tokens",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "./dist/index.js",
-  "module":"./dist/index.mjs",
-  "types":"./dist/index.d.ts",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
@@ -13,8 +13,8 @@
   "keywords": [],
   "author": "",
   "devDependencies": {
-    "@ignite-designsystem-ivoniak/ts-config":"*",
-    "@ignite-designsystem-ivoniak/eslint-config":"*",
+    "@ignite-designsystem-ivoniak/ts-config": "*",
+    "@ignite-designsystem-ivoniak/eslint-config": "*",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   },
